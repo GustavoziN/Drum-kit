@@ -1,0 +1,27 @@
+body {
+    background-image: url('https://inscrições2022.com/wp-content/uploads/2021/05/nam2.jpeg');
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 900;
+}
+#conteudo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.key {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    color: black;
+    background-color: yellow;
+}
